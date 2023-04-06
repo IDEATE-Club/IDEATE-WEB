@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>IDEATE</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="ideate.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <script src="./horizontal scrolling.js"></script>
+
+    </script>
+</head>
+<?php include "./" ?>
+<body id="events">
+    <nav class="fixed-top">
+        <div class="navbar">
+            <div class="logo">
+                <a href="index.html"><img src="./image/ideatelogo.png" alt="ideate logo" class="logo_image"></a>
+            </div>
+            <ul id="navbar">
+                <li><a href="motto.html">Motto</a></li>
+                <li><a href="work.html">Work</a></li>
+                <li><a href="events.html">Events</a></li>
+                <li><a href="project.html">Projects</a></li>
+                <li><a href="join.html" class="joinbtn">Join Us</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="grid">
+        <div class="grid2">
+            <main>
+                <div class="scrolling-wrapper squares">
+                    <div class="card c1 animate__animated animate__bounceInDown">
+                        <div class="text">
+                            We discussed the importance of UX in our daily lives. UX is an important part to operational
+                            design and as an emerging field we observed the caveats modern design brings that limits
+                            convinence.
+                        </div>
+                    </div>
+
+                    <div class="card c1 animate__animated animate__bounceInDown">
+                        <div class="text">
+                            Join us at our upcoming bootcamp where we explore basics of prototyping and dive into a
+                            hands on approach to design.
+                        </div>
+                    </div>
+                    <div class="card animate__animated animate__bounceInDown">
+                        <h2>Card</h2>
+                    </div>
+                </div>
+            </main>
+
+        </div>
+        <img src="./image/circle.png" id="img2events">
+        <div class='main2 animated fadeInLeft'>
+            Gallery
+        </div>
+        <div class="gallery-wrapper squares">
+            <div class="galcard "></div>
+            <div class="galcard"></div>
+            <div class="galcard"></div>
+            <div class="galcard"></div>
+        </div>
+
+
+
+    </section>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
